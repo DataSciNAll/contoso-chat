@@ -110,7 +110,7 @@ def create_summary(df):
 # %%
 # create main funciton for python script
 if __name__ == "__main__":
-   tracer = init_tracing(local_tracing=True)
+   tracer = init_tracing(local_tracing=False)
    test_data_df = load_data()
    response_results = create_response_data(test_data_df)
    result_evaluated = evaluate()
