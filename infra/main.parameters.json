@@ -13,7 +13,7 @@
     },
   
     "openAiApiVersion": {
-      "value": "${AZURE_OPENAI_API_VERSION=2023-07-01-preview}"
+      "value": "${AZURE_OPENAI_API_VERSION=2024-08-01-preview}"
     },
     "openAiEmbeddingDeploymentName": {
       "value": "${AZURE_EMBEDDING_NAME=text-embedding-ada-002}"
