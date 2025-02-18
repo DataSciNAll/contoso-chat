@@ -12,12 +12,12 @@ hooks:
   postprovision:
     posix:
       shell: sh
-      continueOnError: false
+      continueOnError: True
       interactive: true
       run: infra/hooks/postprovision.sh
     windows:
       shell: pwsh
-      continueOnError: false
+      continueOnError: True
       interactive: true
       run: infra/hooks/postprovision.ps1
 infra:
