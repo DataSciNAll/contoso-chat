@@ -6,7 +6,6 @@ model:
   configuration:
     type: azure_openai
     azure_deployment: gpt-4o-evals
-    api_version: turbo-2024-04-09
   parameters:
     max_tokens: 128
     temperature: 0.2
